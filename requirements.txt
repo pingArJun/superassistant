@@ -1,6 +1,6 @@
 pyttsx3
 datetime
-speech_recognition
+pyaudio
 wikipedia
 requests
 json
