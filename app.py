@@ -1,4 +1,3 @@
-import tkinter as tk
 import time
 import datetime
 import pyttsx3
@@ -16,11 +15,7 @@ voices = engine.getProperty('voices')
 #print(voices)
 engine.setProperty('voice',voices[1].id)
 
-root = tk.Tk()
-root.title("Ziara - Your Personal Assistant")
 
-output_label = tk.Label(root, font=("Arial", 14), wraplength=600)
-output_label.pack(pady=20)
 def takecommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -159,4 +154,3 @@ if __name__ == "__main__":
 
             
 
-root.mainloop()
