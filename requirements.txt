@@ -1,0 +1,7 @@
+pyttsx3
+datetime
+speech_recognition
+wikipedia
+requests
+json
+tkinter
