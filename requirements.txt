@@ -2,6 +2,4 @@ pyttsx3
 datetime
 pyaudio
 wikipedia
-requests
-json
 tkinter
